@@ -8,31 +8,51 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	<script src="index.js"></script>
+    <script src="scripts/test.js"></script>
+    <script src="scripts/counts.js"></script>
 
     <h1>Shot Tracker</h1>
-    <h3>Hangout on 04/02/20222</h3>
+    <h3>Hangout on 04/02/2022</h3>
     <table>
         <tr>
             <th>Name</th>
             <th>Shot Count</th>
+            <th></th>
         </tr>
            <tr>
-            <td>Allan Zepeda</td>
-            <td>0</td>
+            <td id="az-name">Allan Zepeda</td>
+            <td id="az-shotcount">0</td>
+            <!-- <td><button onclick="increaseShotCount('az-shotcount')">add shot</button></td> -->
         </tr>
         <tr>
-            <td>Emmanuel Montiel</td>
-            <td>1</td>
+            <td id="em-name">Emmanuel Montiel</td>
+            <td id="em-shotcount">1</td>
+            <!-- <td><button onclick="increaseShotCount('em-shotcount')">add shot</button></td> -->
+        </td>
+        <tr>
+            <td id="emj-name">Ernesto Mancia-Escobar Jr.</td>
+            <td id="emj-shotcount">0</td>
+            <!-- <td><button onclick="increaseShotCount('emj-shotcount')">add shot</button></td> -->
         </tr>
         <tr>
-            <td>Ernesto Mancia-Escobar Jr.</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Matthew Bahloul</td>
-            <td>1</td>
+            <td id="mb-name">Matthew Bahloul</td>
+            <td id="mb-shotcount">1</td>
+            <!-- <td><button onclick="increaseShotCount('mb-shotcount')">add shot</button></td> -->
         </tr>
     </table>
+
+    <button onclick="testLog()">this does nothing ;)</button>
+
+
+
+    <!-- <div>
+        <p>Democracy Section</p>
+        <form>
+            <input>
+            <br>
+            <input>
+            <button>submit</button>
+        </form>
+    </div> -->
   </body>
 </html>
